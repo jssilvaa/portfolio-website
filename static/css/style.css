@@ -1,0 +1,34 @@
+:root {
+  --fg: #e8e8e8;
+  --muted: #bdbdbd;
+  --bg: #0f0f14;
+  --accent: #b38cff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px 22px;
+  border-bottom: 1px solid #222;
+}
+
+.container {
+  max-width: 860px;
+  padding: 22px;
+  margin: 0 auto;
+}
+
+h1 { font-size: 2rem; margin-top: 0; }
+h2 { margin-top: 2rem; }
+p, li { color: var(--muted); line-height: 1.6; }
