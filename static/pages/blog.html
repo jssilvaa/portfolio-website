@@ -1,10 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>zzzmiguel — Blog</title>
+    <title>zzzmiguel — blog</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
     <nav class="nav">
       <a href="/">home</a>
@@ -14,11 +15,61 @@
     </nav>
 
     <main class="container">
-      <h1>blog</h1>
-      <p>Coming soon: robotics notes, C++ engineering, solved problems.</p>
+      <header class="blog-header">
+        <h1 class="blog-page-title">blog</h1>
+        <p class="blog-page-subtitle">
+          some posts about maths, control, robotics and such
+        </p>
+      </header>
+
+      <section class="blog-index" aria-label="Blog posts">
+        <article class="blog-item">
+          <div class="blog-item-top">
+            <h2 class="blog-item-title">
+              <a class="blog-item-link" href="#"
+                >drawing robot: using ROS and OpenCV</a
+              >
+            </h2>
+            <div class="blog-item-date">2026-01-01</div>
+          </div>
+          <div class="blog-item-sub">
+            pipeline architecture, dynamic neural fields
+          </div>
+        </article>
+
+        <article class="blog-item">
+          <div class="blog-item-top">
+            <h2 class="blog-item-title">
+              <a class="blog-item-link" href="#"
+                >path planning using pinocchio and cmm</a
+              >
+            </h2>
+            <div class="blog-item-date">2026-01-01</div>
+          </div>
+          <div class="blog-item-sub">
+            centroidal moment dynamics, kinematic constraints, tvlqr
+          </div>
+        </article>
+
+        <article class="blog-item">
+          <div class="blog-item-top">
+            <h2 class="blog-item-title">
+              <a class="blog-item-link" href="#">profiling qt applications</a>
+            </h2>
+            <div class="blog-item-date">2026-01-01</div>
+          </div>
+          <div class="blog-item-sub">
+            how to use perf and valgrind the right way
+          </div>
+        </article>
+      </section>
+
+      <a class="back-link" href="/">← back to home</a>
 
       <footer class="footer">
-        <a class="footer-link" href="https://github.com/jssilvaa" rel="me">github</a>
+        <a class="footer-link" href="https://github.com/jssilvaa" rel="me"
+          >github</a
+        >
       </footer>
     </main>
   </body>
