@@ -3,3 +3,7 @@ build/
 uploads/ 
 notes.md
 images/
+
+
+# remove images to avoid copyright issues
+static/img/*
